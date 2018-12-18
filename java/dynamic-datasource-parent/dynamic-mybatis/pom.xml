@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.liaoin.dynamic</groupId>
+        <artifactId>dynamic-datasource-parent</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>dynamic-mybatis</artifactId>
+    <packaging>jar</packaging>
+
+    <name>dynamic-mybatis</name>
+    <description>mybatis工程</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.liaoin.dynamic</groupId>
+            <artifactId>dynamic-entity</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
